@@ -17,7 +17,7 @@ function gethumanChoice(){
     if (choice === 'rock' || choice === 'paper' || choice === 'scissors'){
         return choice;
     }else{
-        gethumanChoice();
+        return gethumanChoice();
     }
 }
 // Logic for rounds of play.
