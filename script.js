@@ -65,14 +65,4 @@ function playGame(r){
         }
     }
 
-    // This log handles the game loop you can set custom amount of rounds to play.
-    while(roundsPlayed < rounds){
-        roundsPlayed++;
-        playRound(gethumanChoice(),getcomputerChoice());
-    }
-    // This logic handles calling a game over
-    finishGame(humanScore,computerScore);
-
 }
-
-playGame();
